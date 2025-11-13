@@ -1,1 +1,6 @@
-# -Ciclo-2---Conceitos-da-Linguagem-e-Python-POO---M-dulos-Classes-e-M-todos---3
+x = int(input("Digite o primeiro número: "))
+y = int(input("Digite o segundo número: "))
+z = int(input("Digite o terceiro número: "))
+
+menor = min(x, y, z)
+print(f"O menor número é: {menor}")
